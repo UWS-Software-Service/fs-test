@@ -9,3 +9,7 @@ updates:
     directory: "/grails5-test" # Location of package manifests
     schedule:
       interval: "weekly"
+  - package-ecosystem: "gradle" # See documentation for possible values
+    directory: "/grails532app" # Location of package manifests
+    schedule:
+      interval: "daily"
