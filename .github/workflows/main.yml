@@ -3,7 +3,8 @@ name: 'Gradle Dependency Submission'
 on:
   push:
     branches:
-      - main # run the action on your projects default branch
+      - test-gradle-dependency-submission
+      # - main # run the action on your projects default branch
 
 jobs:
   build:
