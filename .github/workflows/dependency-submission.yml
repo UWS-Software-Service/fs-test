@@ -1,4 +1,4 @@
-name: 'Gradle Dependency Submission'
+name: 'DevSecOps: Dependency submission'
 
 on:
   push:
