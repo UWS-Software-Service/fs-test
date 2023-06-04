@@ -16,6 +16,7 @@ jobs:
           gradle-project-path: grails532app
   dependency-review:
     name: Dependency review
+    needs: dependency-submission
     runs-on: ubuntu-latest
     permissions:
       contents: read
