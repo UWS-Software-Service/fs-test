@@ -36,6 +36,7 @@ configurations {
 
 dependencies {
     
+    
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     compileOnly "io.micronaut:micronaut-inject-groovy"
     console "org.grails:grails-console"
