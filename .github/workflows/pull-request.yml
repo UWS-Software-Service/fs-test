@@ -5,6 +5,7 @@ jobs:
     name: runner / codenarc
     runs-on: ubuntu-latest
     steps:
+      - name: 'Checkout Repository'
       - uses: actions/checkout@v2
  #     - uses: asaasdev/codenarc-action@v1
       - name: Run codenarc (Static Analysis for Groovy) with reviewdog
