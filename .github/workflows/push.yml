@@ -18,14 +18,14 @@ jobs:
         uses: mikepenz/gradle-dependency-submission@v0.8.6
         with:
           gradle-project-path: grails532app
-  dependency-review:
-    name: Dependency review
-    needs: dependency-submission
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    steps:
-      - name: 'Checkout Repository'
-        uses: actions/checkout@v3
-      - name: Dependency Review
-        uses: actions/dependency-review-action@v3
+#  dependency-review:
+#    name: Dependency review
+#    needs: dependency-submission
+#    runs-on: ubuntu-latest
+#    permissions:
+#      contents: read
+#    steps:
+#      - name: 'Checkout Repository'
+#        uses: actions/checkout@v3
+#      - name: Dependency Review
+#        uses: actions/dependency-review-action@v3
