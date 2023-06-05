@@ -6,12 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: asaasdev/codenarc-action@v1
-        with:
-          github_token: ${{ secrets.github_token }}
-          # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
-          reporter: github-pr-review
-          # Change reporter level if you need.
-          # GitHub Status Check won't become failure with warning.
-          level: info,warning,error
-          rulesetfiles: 'rulesets/basic.xml'
+ #     - uses: asaasdev/codenarc-action@v1
+      - name: Run codenarc (Static Analysis for Groovy) with reviewdog
+      - uses: asaasdev/codenarc-action@v3.0.0
+
+#        with:
+#          github_token: ${{ secrets.github_token }}
+#          # Change reviewdog reporter if you need [github-pr-check,github-check,github-pr-review].
+#          reporter: github-pr-review
+#          # Change reporter level if you need.
+#          # GitHub Status Check won't become failure with warning.
+#          level: info,warning,error
+#          rulesetfiles: 'rulesets/basic.xml'
