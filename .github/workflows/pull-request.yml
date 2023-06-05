@@ -12,3 +12,4 @@ jobs:
 #     - uses: asaasdev/codenarc-action@v1
         with:
           level: info
+          workdir: 'grails532app'
