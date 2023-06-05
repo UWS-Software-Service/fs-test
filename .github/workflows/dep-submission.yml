@@ -1,3 +1,7 @@
+# Currently the action has to be run on the default branch. 
+# Running it as part of a PR won't update the Dependency graph of your projects Insights
+# This seems to be a GitHub requirement.
+
 name: 'DevSecOps push'
 on: [push]
 
