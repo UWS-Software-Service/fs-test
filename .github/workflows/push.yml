@@ -3,7 +3,9 @@
 # This seems to be a GitHub requirement.
 
 name: 'DevSecOps push'
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   dependency-submission:
