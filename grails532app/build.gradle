@@ -75,7 +75,7 @@ dependencies {
     testImplementation "org.seleniumhq.selenium:selenium-api:4.0.0"
     testImplementation "org.seleniumhq.selenium:selenium-support:4.0.0"
     testRuntimeOnly "org.seleniumhq.selenium:selenium-chrome-driver:4.0.0"
-    testRuntimeOnly "org.seleniumhq.selenium:selenium-firefox-driver:4.0.0"
+    testRuntimeOnly "org.seleniumhq.selenium:selenium-firefox-driver:4.10.0"
     
     implementation 'org.apache.logging.log4j:log4j-api:2.14.0'
     implementation 'org.apache.logging.log4j:log4j-core:2.14.0'
